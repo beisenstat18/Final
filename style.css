@@ -1,0 +1,254 @@
+html,body{
+
+  margin:0vmin; /*no margin*/
+  background-color: black;
+  font-family: 'Nova Mono', monospace;
+    color: #FC30ED;
+}
+
+.homepage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20vmin;
+  background-image: url('arrow40.png');
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+#arrow2 {
+  width: 5vmin;
+  height: auto;
+  padding-top: 55vmin;
+}
+.overallpie{
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding-right: 10vmin;
+padding-bottom: 10vmin;
+}
+.firstslice, .secondslice{
+  display: flex;
+  flex-direction: column;
+}
+#Submit{
+  display: flex;
+  justify-content: center;
+}
+.letstry{
+  display: flex;
+  justify-content: center;
+}
+#name, #mail, #followers, #dateofbirth, #phonenumber, #followernum{
+  padding-top: 5vmin;
+  padding-left: 20vmin;
+  padding-right: 5vmin;
+}
+.buttonfun{
+  display: flex;
+  justify-content: center;
+  padding-left: 85vmin;
+  padding-bottom: 10vmin;
+}
+.name p{
+  font-size: 4vmin;
+
+}
+
+#dateInput1, #Submit{
+  background-color: black;
+  color:#FC30ED;
+}
+#fortune-output{
+  font-size: 10vmin;
+  background-image: url('thumbsdown.png');
+  background-size: contain;
+}
+.headersecond{
+padding-top: 5vmin;
+  display: flex;
+  justify-content: center;
+}
+.fairy{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.fairy img{
+  width: 30vmin;
+  height: auto;
+}
+.letstry{
+  background-color: black;
+  font-family: 'Nova Mono', monospace;
+      color: #FC30ED;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header1 h2{
+  padding-top: 15vmin;
+  color: #FC30ED;
+  padding-left: 20vmin;
+}
+
+.allcontent{
+  display: flex;
+  flex-direction: column;
+}
+.about{
+  background-image: url('back.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50vmin;
+  justify-content: center;
+  padding-left: 10vmin;
+}
+.picturelogo{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50vmin;
+}
+.picturelogo img{
+
+  padding-top: 20vmin;
+  height: 45vmin;
+  width:auto;
+  padding-right: 12vmin;
+}
+.how{
+  padding-top: 40vmin;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30vmin;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+}
+.how1{
+  color: #FC30ED;
+  padding-right: 25vmin;
+  padding-left: 30vmin;
+}
+.newdiv{
+  display: flex;
+  flex-direction: row;
+justify-content: flex-start;
+
+}
+.pic1 img{
+  height: 40vmin;
+  width:20vmin;
+
+}
+
+.pic1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 10vmin;
+  padding-left: 50vmin;
+}
+.what{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 30vmin;
+  padding-left: 30vmin;
+  padding-top: 20vmin;
+  line-height: 6vmin;
+
+}
+.what p{
+  font-size: 4vmin;
+}
+.design{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.arrowagainn img, .arrowagain img{
+  width: 10vmin;
+  height: auto;
+}
+.arrowagain{
+  display: flex;
+  flex-direction: column;
+  padding-right: 10vmin;
+}
+
+.arrowagainn{
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  position: relative;
+  background-color: black;
+  font-family: 'Nova Mono', monospace;
+  font-size: 28px;
+  color: #FC30ED;
+  padding: 4vmin;
+  width: 40vmin;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+
+.button:after {
+  content: "";
+  background: black;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.begin{
+  padding-top: 14vmin;
+  display: flex;
+  justify-content: center;
+  background-image: url('designs.png');
+  background-size: contain;
+  background-repeat: repeat;
+  padding-bottom: 10vmin;
+}
+.button a{
+    color: #FC30ED;
+}
+
+<style>
+  .posts{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bigchunk{
+    padding-top: 30vmin;
+    padding-bottom: 10vmin;
+  }
+  .like-comment{
+    font-size: 10px;
+    color:#333;
+    padding-bottom: 40px;
+    font-weight: bold;
